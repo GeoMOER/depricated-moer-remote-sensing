@@ -1,0 +1,35 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <CategoryNames>
+      <Category></Category>
+      <Category>2</Category>
+      <Category>3</Category>
+      <Category>10</Category>
+      <Category>11</Category>
+      <Category>12</Category>
+      <Category>20</Category>
+      <Category>21</Category>
+      <Category>22</Category>
+      <Category>30</Category>
+      <Category>40</Category>
+      <Category>41</Category>
+      <Category>50</Category>
+      <Category>51</Category>
+      <Category>52</Category>
+      <Category>72</Category>
+      <Category>101</Category>
+      <Category>102</Category>
+      <Category>201</Category>
+      <Category>202</Category>
+      <Category>203</Category>
+      <Category>204</Category>
+      <Category>205</Category>
+      <Category>206</Category>
+      <Category>301</Category>
+      <Category>302</Category>
+      <Category>303</Category>
+      <Category>304</Category>
+      <Category>350</Category>
+    </CategoryNames>
+  </PAMRasterBand>
+</PAMDataset>
