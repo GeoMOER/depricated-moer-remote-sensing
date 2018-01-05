@@ -17,7 +17,7 @@ ortho_muf_rgb_idx_pca_scaled <- paste0(path_muf_set1m_sample_segm, "ortho_muf_rg
 minv <- minValue(raster(ortho_muf_rgb_idx_pca_scaled[[1]]))
 maxv <- maxValue(raster(ortho_muf_rgb_idx_pca_scaled[[1]]))
 
-windows <- seq(3,21,3)
+windows <- c(3, 9, 15, 21)
 for(win in windows){
   oth <- otbTexturesHaralick(x=ortho_muf_rgb_idx_pca_scaled[[1]], 
                              output_name = "ortho_muf_rgb_idx_pca_scaled_haralick_",

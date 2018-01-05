@@ -67,4 +67,4 @@ rasterOptions(tmpdir = path_temp)
 
 saga_cmd <- "C:/OSGeo4W64/apps/saga/saga_cmd.exe "
 # initOTB("C:/OSGeo4W64/bin/")
-initOTB("C:/OSGeo4W64/OTB-5.8.0-win64/OTB-5.8.0-win64/bin/")
+initOTB("C:/OSGeo4W64/OTB-6.2.0-Win64/bin/")
