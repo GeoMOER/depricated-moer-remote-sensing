@@ -34,6 +34,6 @@ summary(cars)
 
 You can also embed plots, for example:
 
-![](assets/images/pressure-1.jpg)<!-- -->
+![]({{ site.baseurl }}/assets/images/pressure-1.jpg)<!-- -->
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
