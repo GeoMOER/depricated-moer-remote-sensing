@@ -9,6 +9,8 @@ output:
 
 
 
+
+
 ## R Markdown
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
@@ -34,6 +36,6 @@ summary(cars)
 
 You can also embed plots, for example:
 
-![]({{ site.baseurl }}/assets/images/rmd_images/test01_files/figure-html/pressure-1.png)<!-- -->
+![]({{ site.baseurl }}/assets/images/rmd_images/pressure-1.png)<!-- -->
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
