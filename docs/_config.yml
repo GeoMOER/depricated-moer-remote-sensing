@@ -39,7 +39,7 @@ github_username:  jekyll
 # moer: Adjust theme etc.
 markdown: kramdown
 # theme: minima
-remote_theme: "marburg-open-courseware/jekyll-template-moer"
+remote_theme: "marburg-open-courseware/moer-template-jekyll"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 auto_ids: true
 
