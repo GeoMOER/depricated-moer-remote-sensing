@@ -1,51 +1,51 @@
-# Welcome to Jekyll!
+# Marburg Open Educational Resources
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
+# This config file is meant for settings that affect the whole course space.
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# 'bundle exec jekyll serve'. If you change this file, please restart the server
+# process.
 
-# Site settings
+# Site settings 
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# moer: Adjust title etc. Depending on serving the site on GitHub or OER, different
-# url/baseurl settings have to be used.
+# Adjust title etc. Depending on serving the site on GitHub or OER, different
+# url and baseurl settings have to be used.
 
+##### Title ###################################################################
 
 title: Lab of Environmental Informatics
-name: &name "Thomas Nauss" # &name is a YAML anchor which can be *referenced later
+name: &name "Lab of Environmental Informatics" # &name is a YAML anchor which can be *referenced later
 email: nauss@geo.uni-marburg.de
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-title_separator: "|"
+description: >- # this means to ignore newlines until next item
+  course course-materials geography remote-sensing marburg-open-educational-resource 
+  physical-geography environmental-science nature-conservation r
 
+##### URL #####################################################################
+# Serve on OER
 #url: "https://oer.uni-marburg.de"
 #baseurl: "/data/mriliasmooc/lm_data/lm_2422"
+
+# Serve on GitHub
 url: https://marburg-open-courseware.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "/moer-remote-sensing"
 
-twitter_username: jekyllrb
-github_username:  jekyll
 
-# Build settings
-# moer: Adjust theme etc.
-markdown: kramdown
-# theme: minima
-remote_theme: "marburg-open-courseware/moer-template-jekyll"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-auto_ids: true
+##### Title ###################################################################
+title: Lab of Environmental Informatics
+name: &name Lab of Environmental Informatics # &name is a YAML anchor which can be *referenced later
+email: nauss@geo.uni-marburg.de
+description: >- # this means to ignore newlines until next item
+  course course-materials geography remote-sensing marburg-open-educational-resource 
+  physical-geography environmental-science nature-conservation r
 
-# Site Author
+
+##### Lecturer settings #######################################################
 author:
-  name             : *name # *name is a YAML reference pointing to the &anchor earlier
+  name             : "Thomas Nauss"
   avatar           : "/assets/images/tnauss.jpg"
   bio              : "Marburg University"
   location         : "Marburg, DE"
@@ -67,7 +67,7 @@ author:
   linkedin         :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # https://stackoverflow.com/users/123456/username
+  stackoverflow    : 
   steam            :
   tumblr           :
   twitter          : "https://twitter.com/geographie_umr"
@@ -75,22 +75,28 @@ author:
   weibo            :
   xing             :
   youtube          : "https://www.youtube.com/channel/UCGiwSv5KYjsNXl6-nZq0SDA"
+  
+  
+##### Site configuration ######################################################
+ title_separator: "|"
 
+# Build settings
+markdown: kramdown
+# theme: minima
+remote_theme: "marburg-open-courseware/moer-template-jekyll"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+auto_ids: true
 
+# Default Settings
+collections_dir: units
 
-
-# moer: Add collections and default styles.
+# Includes
 include:
   - _pages
-  
+
+# Collection settings
 collections:
   examples:
-    output: true
-    permalink: /:collection/:title.html
-  lectures:
-    output: true
-    permalink: /:collection/:title.html
-  units:
     output: true
     permalink: /:collection/:title.html
   unit01:
@@ -112,6 +118,7 @@ collections:
     output: true
     permalink: /:collection/:title.html
 
+# Default settings
 defaults:
   # examples
   - scope:
@@ -119,24 +126,6 @@ defaults:
       type: examples
     values:
       category: "examples"
-      layout: single
-      sidebar:
-        nav: "docs" 
-  # lectures
-  - scope:
-      path: ""
-      type: lectures
-    values:
-      category: "lectures"
-      layout: single
-      sidebar:
-        nav: "docs"
-  # units
-  - scope:
-      path: ""
-      type: units
-    values:
-      category: "units"
       layout: single
       sidebar:
         nav: "docs" 
@@ -185,15 +174,6 @@ defaults:
       layout: single
       sidebar:
         nav: "docs" 
-  # worksheets
-  - scope:
-      path: ""
-      type: worksheets
-    values:
-      category: "worksheets"
-      layout: single
-      sidebar:
-        nav: "docs"        
   # pages
   - scope:
       path: "_pages"
@@ -203,6 +183,7 @@ defaults:
       sidebar:
         nav: "docs"        
 
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -218,5 +199,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-theme: jekyll-theme-cayman

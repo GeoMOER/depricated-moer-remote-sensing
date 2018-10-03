@@ -3,11 +3,11 @@ main:
   - title: "Course home"
     url: /index.html
   - title: "Course units"
-    url: /units/index.html
-  - title: "OER home"
-    url: https://oer.uni-marburg.de/ilias.php?ref_id=810&cmdClass=ilrepositorygui&cmdNode=r5&baseClass=ilRepositoryGUI
+    url: /units.html
   - title: "About"
     url: /about.html
+  - title: "OER home"
+    url: https://oer.uni-marburg.de/ilias.php?ref_id=810&cmdClass=ilrepositorygui&cmdNode=r5&baseClass=ilRepositoryGUI
   - title: "Sitemap"
     url: /sitemap.html
     
@@ -16,7 +16,7 @@ docs:
   - title: Ways out
     children:
       - title: "Course units"
-        url: /units/index.html
+        url: /units.html
       - title: "Course home"
         url: /index.html
       - title: "OER home"

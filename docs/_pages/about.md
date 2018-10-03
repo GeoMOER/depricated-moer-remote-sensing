@@ -1,6 +1,6 @@
 ---
-permalink: /about
 title: About
+permalink: /about.html
 ---
 
 This work is brought to you as part of the [Open Educational Resources](https://oer.uni-marburg.de) initiative of [Marburg University, Germany](https://www.uni-marburg.de/de) from the working group on [Environmental Informatics](https://www.uni-marburg.de/fb19/fachgebiete/umweltinformatik/) of the [Department of Geography](https://www.uni-marburg.de/fb19).

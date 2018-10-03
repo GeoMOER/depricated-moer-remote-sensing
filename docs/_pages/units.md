@@ -1,6 +1,6 @@
 ---
-title: Environmental Observations
-permalink: /units/index.html 
+title: Course Units
+permalink: /units.html
 ---
 
 ## Unit 01
